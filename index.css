@@ -1,0 +1,50 @@
+h1 {
+    position: relative;
+    margin: auto;
+    font-size: 10%;
+}
+
+#clcockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock\ img.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+}
+
+#hour {
+    width: 1.5%;
+    top: 23%;
+    left: 44.5%;
+    height: 23%;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#minute {
+    width: 1%;
+    top: 18%;
+    left: 44.8%;
+    height: 28%;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#second {
+    opacity: 0.5;
+    width: 0.5%;
+    top: 11%;
+    left: 44.9%;
+    height: 35%;
+    transform-origin: bottom;
+}
